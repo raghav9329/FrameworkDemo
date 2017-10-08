@@ -16,12 +16,14 @@
 
 <dependencies>
  
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
-  <groupId>org.testng</groupId>
-  <artifactId>testng</artifactId>
-  <version>6.8</version>
-  <scope>test</scope>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.8.8</version>
+    <scope>test</scope>
 </dependency>
+
 <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 <dependency>
     <groupId>org.apache.poi</groupId>
@@ -68,7 +70,7 @@
 <configuration>
  
 <suiteXmlFiles>
-<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+<suiteXmlFile></suiteXmlFile>
 </suiteXmlFiles>
  
 </configuration>
